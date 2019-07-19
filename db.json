@@ -83,6 +83,7 @@
       }
     ],
     "meta": {
+      "total_count": 8
     }
   },
   "opportunities": {
@@ -119,6 +120,7 @@
       }
     ],
     "meta": {
+      "total_count": 3
     }
   }
 }
