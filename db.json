@@ -7,12 +7,11 @@
         "slug": "example-org",
         "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
         "is_approved": true,
-        "approved_by": 
-          {
-            "id": 1,
-            "name": "Test User 1",
-            "email": "test@example.com"
-          },
+        "approved_by": {
+          "id": 1,
+          "name": "Test User 1",
+          "email": "test@example.com"
+        },
         "created_at": "2018-12-27 19:01:48.009556",
         "updated_at": "2018-12-27 19:01:48.009556"
       },
@@ -22,12 +21,11 @@
         "slug": "example-2-org",
         "external_id": "61a5723d-65ee-4902-a05a-155e5d7a9263",
         "is_approved": true,
-        "approved_by": 
-          {
-            "id": 1,
-            "name": "Test User 1",
-            "email": "test@example.com"
-          },
+        "approved_by": {
+          "id": 1,
+          "name": "Test User 1",
+          "email": "test@example.com"
+        },
         "created_at": "2019-03-04 18:06:54.098484",
         "updated_at": "2019-03-04 18:06:54.098484"
       }
@@ -43,23 +41,21 @@
         "name": "Example opportunity 1-1",
         "slug": "example-opportunity-1-1",
         "external_id": "504bbacb-b03e-4b6e-a842-33ef83346798",
-        "approved_by": 
-          {
-            "id": 1,
-            "name": "Test User 1",
-            "email": "test@example.com"
-          },
-        "organization": 
-          {
-            "id": 2,
-            "name": "Test Labs",
-            "slug": "test-labs",
-            "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
-            "is_approved": true,
-            "approved_by": 1,
-            "created_at": "2018-12-27 19:01:48.009556",
-            "updated_at": "2018-12-27 19:01:48.009556"
-          },
+        "approved_by": {
+          "id": 1,
+          "name": "Test User 1",
+          "email": "test@example.com"
+        },
+        "organization": {
+          "id": 2,
+          "name": "Test Labs",
+          "slug": "test-labs",
+          "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
+          "is_approved": true,
+          "approved_by": 1,
+          "created_at": "2018-12-27 19:01:48.009556",
+          "updated_at": "2018-12-27 19:01:48.009556"
+        },
         "created_at": "2019-06-26 07:46:17.536008",
         "updated_at": "2019-06-26 07:46:17.536008"
       },
@@ -68,23 +64,21 @@
         "name": "Example opportunity 1-2",
         "slug": "example-opportunity-1-2",
         "external_id": "16b93e34-79cf-4e55-a8fd-75ec7663add9",
-        "approved_by": 
-          {
-            "id": 1,
-            "name": "Test User 1",
-            "email": "test@example.com"
-          },
-        "organization": 
-          {
-            "id": 2,
-            "name": "Test Labs",
-            "slug": "test-labs",
-            "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
-            "is_approved": true,
-            "approved_by": 1,
-            "created_at": "2018-12-27 19:01:48.009556",
-            "updated_at": "2018-12-27 19:01:48.009556"
-          },
+        "approved_by": {
+          "id": 1,
+          "name": "Test User 1",
+          "email": "test@example.com"
+        },
+        "organization": {
+          "id": 2,
+          "name": "Test Labs",
+          "slug": "test-labs",
+          "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
+          "is_approved": true,
+          "approved_by": 1,
+          "created_at": "2018-12-27 19:01:48.009556",
+          "updated_at": "2018-12-27 19:01:48.009556"
+        },
         "created_at": "2019-06-26 07:46:17.536008",
         "updated_at": "2019-06-26 07:46:17.536008"
       },
@@ -93,29 +87,90 @@
         "name": "Example opportunity 2-1",
         "slug": "example-opportunity-2-1",
         "external_id": "4547e1f7-4d75-46a3-a2d4-53026daa9788",
-        "approved_by": 
-          {
-            "id": 1,
-            "name": "Test User 1",
-            "email": "test@example.com"
-          },
-        "organization_id": 
-          {
-            "id": 3,
-            "name": "Testing",
-            "slug": "testing",
-            "external_id": "61a5723d-65ee-4902-a05a-155e5d7a9263",
-            "is_approved": true,
-            "approved_by": 1,
-            "created_at": "2019-03-04 18:06:54.098484",
-            "updated_at": "2019-03-04 18:06:54.098484"
-          },
+        "approved_by": {
+          "id": 1,
+          "name": "Test User 1",
+          "email": "test@example.com"
+        },
+        "organization_id": {
+          "id": 3,
+          "name": "Testing",
+          "slug": "testing",
+          "external_id": "61a5723d-65ee-4902-a05a-155e5d7a9263",
+          "is_approved": true,
+          "approved_by": 1,
+          "created_at": "2019-03-04 18:06:54.098484",
+          "updated_at": "2019-03-04 18:06:54.098484"
+        },
         "created_at": "2019-06-26 07:46:17.536008",
         "updated_at": "2019-06-26 07:46:17.536008"
       }
     ],
     "meta": {
       "total_count": 3
+    }
+  },
+  "sample_types": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Flower",
+        "slug": "Flower",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 2,
+        "name": "Crude Oil",
+        "slug": "Crude Oil",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 3,
+        "name": "Winterized",
+        "slug": "Winterized",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 4,
+        "name": "Distillate",
+        "slug": "Distillate",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 5,
+        "name": "isolate",
+        "slug": "isolate",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 6,
+        "name": "Vape Oil",
+        "slug": "Vape Oil",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 7,
+        "name": "Tincture Oil",
+        "slug": "Tincture Oil",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      },
+      {
+        "id": 8,
+        "name": "Hemp/MCT Oil",
+        "slug": "Hemp/MCT Oil",
+        "created_at": "2019-07-31T06:38:01.992Z",
+        "updated_at": "2019-07-31T06:38:01.992Z"
+      }
+    ],
+    "meta": {
+      "total_count": 8
     }
   }
 }
