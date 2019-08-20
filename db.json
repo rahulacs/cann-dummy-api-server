@@ -1,39 +1,4 @@
 {
-  "organizations": {
-    "data": [
-      {
-        "id": 1,
-        "name": "Example org-1",
-        "slug": "example-org",
-        "external_id": "6a6e6238-6ef4-4b18-b989-03fc3053dee4",
-        "is_approved": true,
-        "approved_by": {
-          "id": 1,
-          "name": "Test User 1",
-          "email": "test@example.com"
-        },
-        "created_at": "2018-12-27 19:01:48.009556",
-        "updated_at": "2018-12-27 19:01:48.009556"
-      },
-      {
-        "id": 2,
-        "name": "Example 2 org-2",
-        "slug": "example-2-org",
-        "external_id": "61a5723d-65ee-4902-a05a-155e5d7a9263",
-        "is_approved": true,
-        "approved_by": {
-          "id": 1,
-          "name": "Test User 1",
-          "email": "test@example.com"
-        },
-        "created_at": "2019-03-04 18:06:54.098484",
-        "updated_at": "2019-03-04 18:06:54.098484"
-      }
-    ],
-    "meta": {
-      "total_count": 2
-    }
-  },
   "opportunities": {
     "data": [
       {
